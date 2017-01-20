@@ -1,0 +1,39 @@
+body{
+	
+    margin-top: 50px;
+    font-family: "Times New Roman", Times, serif; 
+    background-image: url("http://media.emercedesbenz.com.s3.amazonaws.com/magazine/wp-content/uploads/Kicherer-Mercedes-SLS-AMG-63-Supersport-GT-2.jpg")
+
+    
+}
+button{
+	border-style: dashed;
+	background-color: white;
+	text-decoration: underline;
+	text-align: center;
+	margin-left: 700px;
+	border:2px solid #456879;
+	border-radius:10px;
+	margin-top: 50px;
+	padding: 15px;
+	background-image: linear-gradient(white,black)
+
+}
+div{
+	text-align: center;
+	letter-spacing: 3px;
+	color: white;
+
+	
+}
+input{
+	border: 3px double #CCCCCC;
+	background-color: grey;
+	color: black;
+	font-style: italic;
+	text-align: center;
+}
+text{
+	margin-left: 30px;
+	font-family: "Times New Roman", Times, serif;
+}

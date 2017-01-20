@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS/HTML Workshop with Drivy</title>
+    <text>WEB APPLICATION CAR RENTAL</text>
+    <link rel="stylesheet" href="C:/Users/LOUIS/Desktop/ESILV_S8/WEB_Application/TD2/suit-up-drivy/public/style.CSS" />
+  </head>
+    <div id="car">
+      <input class="model" type="text" placeholder="Car model" style="background-color: white" style="color: black"  />
+      <input class="price-by-day" type="number" placeholder="Price by day" style="background-color: white"/>
+      <input class="price-by-km" type="number" placeholder="Price by km" style="background-color: white"/>
+    </div>
+    <div id="rental">
+      <input class="begin" type="date" placeholder="Rental begin date" style="background-color: white"/>
+      <input class="end" type="date" placeholder="Rental end date" style="background-color: white"/>
+      <input class="distance" type="number" placeholder="Distance in km" style="background-color: white"/>
+      <input class="option" type="checkbox" placeholder="Deductible option" style="background-color: white"/>
+    </div>
+    <button id="compute">Compute</button>
+    <div id="actors"></div>
+    <script id="template" type="x-tmpl-mustache">
+      {{#actors}}
+        <div class="actor">
+          <span>{{who}}</span>
+          <span>{{type}}</span>
+          <span>{{amount}}</span>
+        </div>
+      {{/actors}}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+    <script src="drivy.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
